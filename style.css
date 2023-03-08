@@ -1,0 +1,109 @@
+*{
+     margin: 0;
+    padding: 0; 
+    font-family:serif;
+
+}
+.container {
+      display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color:     rgb(250, 237, 250) ;
+     
+    width: 100%;
+    height: 41em;
+    
+
+    
+}
+.size{
+    width:89% ;
+    min-height: 12em;
+  background-color: black;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgb(221, 220, 220);
+ 
+   
+   
+    
+  
+ 
+}
+.rose{
+   width: 85%;
+   min-height: 550px;
+   background-image: url("/images/beb2a6d2bc6282aba8c77076f7116e44.jpg ");
+  background-size: cover;
+  background-repeat:no-repeat
+
+}
+.rose-color{
+    width:55% ;
+    min-height: 550px;
+    background-color:rgb(243, 226, 228);
+  
+  
+}
+.login{
+    position: absolute;
+    /* bu divin başka yerlerde olmasını sağlıyor. yani iki div üstüne konumlandırabiliyoruz. */
+top: 9em; left: 45em;
+
+    width: 280px;
+    min-height: 400px;
+    background-color: rgba(247, 243, 246, 0.3);
+    backdrop-filter: blur(4px);
+    flex-direction: column;
+    border-radius: 10px;
+    
+   
+  
+    
+}
+.type{
+    width: 13rem;
+    height: 2.3rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    padding-left: 0.6rem;
+   
+    border: 2px solid rgb(221, 220, 220);
+}
+.button{
+    width: 14rem;
+    height: 3rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    padding-left: 0.6rem;
+    border: none;
+   color: bisque;
+    background-color: rgb(211, 96, 115);
+    font-size: 1.2rem;
+    transition: 0.5s;
+    
+}
+.button:hover{
+    background-color: transparent;
+    color:rgb(211, 96, 115)  ;
+    border: 2px solid  rgb(221, 220, 220);
+}
+.font{
+   
+    width: 15rem;
+    height: 2.3rem;
+    margin-left: 1.7rem;
+    margin-top: 1.5rem;
+    /* background-color: blue; */
+    text-align: center;
+    font-size: 14px;
+    color:rgb(151, 148, 148)
+}
+.href{
+    text-align: center;
+    font-size: 14px;
+    color:rgb(97, 94, 94);
+    margin-top: 2.5rem;
+    
+      }
